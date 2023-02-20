@@ -13,8 +13,8 @@ W = pi;
 F = rectangularPulse(-W, W, w);
 figure();
 fplot(F, 'LineWidth', 2);
-title('Fourier transform F[f(t)]');
-xlabel('t');
+title('Fourier transform F[x(t)]');
+xlabel('w');
 ylabel('F(jw)');
 grid on;
 
@@ -22,7 +22,7 @@ grid on;
 f = ifourier(F); % ifourer = inverse Fourier
 figure();
 fplot(f, 'LineWidth', 2);
-title('Inverse Fourier Transform f(t) = F^-1[F(jw)]');
+title('Inverse Fourier Transform x(t) = F^{-1}[F(jw)]');
 xlabel('t');
 ylabel('f(t)');
 grid on;
