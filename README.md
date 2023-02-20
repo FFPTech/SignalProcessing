@@ -1,2 +1,2 @@
-# SignalProcessing
-Signal Processing tutorials
+# Signal Processing
+Signal Processing exercises in MATLAB
